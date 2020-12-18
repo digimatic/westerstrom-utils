@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="westerstrom_utils_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\.clion-build-debug\;CMake Files\.clion-build-debug\_deps\;CMake Files\.clion-build-debug\_deps\catch2-src\;CMake Files\.clion-build-debug\_deps\catch2-src\CMake\;CMake Files\.clion-build-debug\_deps\catch2-src\projects\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="westerstrom_utils_test">
+				<Option output="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/westerstrom_utils_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/test/../include"/>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 westerstrom_utils_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="westerstrom_utils_test/fast">
+				<Option output="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/westerstrom_utils_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/test/../include"/>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 westerstrom_utils_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/grid.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/pow_int.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/set_cross.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/test.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/tuple_math.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/CMake/Catch2Config.cmake.in">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/CMake/MiscFunctions.cmake">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/CMake/catch2.pc.in">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\projects\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

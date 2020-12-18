@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="westerstrom_utils"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\.clion-build-debug\;CMake Files\.clion-build-debug\_deps\;CMake Files\.clion-build-debug\_deps\catch2-src\;CMake Files\.clion-build-debug\_deps\catch2-src\CMake\;CMake Files\.clion-build-debug\_deps\catch2-src\projects\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="westerstrom_utils">
+				<Option output="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/libwesterstrom_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 westerstrom_utils"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="westerstrom_utils/fast">
+				<Option output="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/libwesterstrom_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 westerstrom_utils/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SelfTest">
+				<Option output="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/SelfTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/Makefile&quot;  VERBOSE=1 SelfTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SelfTest/fast">
+				<Option output="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/SelfTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/Makefile&quot;  VERBOSE=1 SelfTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-build/projects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="westerstrom_utils_test">
+				<Option output="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/westerstrom_utils_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/test/../include"/>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 westerstrom_utils_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="westerstrom_utils_test/fast">
+				<Option output="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/westerstrom_utils_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/test/../include"/>
+					<Add directory="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 westerstrom_utils_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/peterw/Development/westerstrom-utils/.clion-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/catch.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/catch_with_main.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/external/clara.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_benchmark.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_chronometer.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_clock.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_constructor.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_environment.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_estimate.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_execution_plan.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_optimizer.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_outlier_classification.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/catch_sample_analysis.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_analyse.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_benchmark_function.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_complete_invoke.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_estimate_clock.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_measure.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_repeat.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_run_for_at_least.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_stats.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_stats.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/benchmark/detail/catch_timing.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_approx.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_approx.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_assertionhandler.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_assertionhandler.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_assertioninfo.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_assertionresult.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_assertionresult.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_capture.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_capture_matchers.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_capture_matchers.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_clara.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_commandline.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_commandline.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_common.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_common.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_compiler_capabilities.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_config.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_config.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_console_colour.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_console_colour.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_context.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_context.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_debug_console.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_debug_console.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_debugger.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_debugger.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_decomposer.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_decomposer.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_default_main.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_enforce.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_enforce.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_enum_values_registry.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_enum_values_registry.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_errno_guard.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_errno_guard.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_exception_translator_registry.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_exception_translator_registry.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_external_interfaces.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_fatal_condition.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_fatal_condition.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_generators.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_generators.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_generators_generic.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_generators_specific.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_impl.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_capture.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_capture.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_config.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_config.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_enum_values_registry.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_exception.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_exception.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_generatortracker.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_registry_hub.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_registry_hub.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_reporter.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_reporter.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_runner.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_runner.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_tag_alias_registry.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_testcase.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_interfaces_testcase.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_leak_detector.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_leak_detector.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_list.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_list.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers_exception.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers_exception.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers_floating.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers_floating.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers_generic.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers_generic.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers_string.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers_string.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_matchers_vector.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_message.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_message.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_meta.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_objc.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_objc_arc.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_option.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_output_redirect.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_output_redirect.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_platform.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_polyfills.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_polyfills.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_preprocessor.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_random_number_generator.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_random_number_generator.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_reenable_warnings.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_registry_hub.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_reporter_registrars.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_reporter_registry.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_reporter_registry.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_result_type.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_result_type.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_run_context.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_run_context.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_section.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_section.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_section_info.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_section_info.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_session.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_session.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_singletons.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_singletons.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_startup_exception_registry.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_startup_exception_registry.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_stream.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_stream.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_string_manip.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_string_manip.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_stringref.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_stringref.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_suppress_warnings.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_tag_alias.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_tag_alias.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_tag_alias_autoregistrar.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_tag_alias_autoregistrar.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_tag_alias_registry.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_tag_alias_registry.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_case_info.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_case_info.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_case_registry_impl.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_case_registry_impl.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_case_tracker.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_case_tracker.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_registry.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_registry.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_spec.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_spec.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_spec_parser.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_test_spec_parser.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_text.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_timer.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_timer.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_to_string.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_tostring.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_tostring.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_totals.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_totals.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_uncaught_exceptions.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_uncaught_exceptions.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_user_interfaces.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_version.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_version.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_wildcard_pattern.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_wildcard_pattern.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_windows_h_proxy.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_xmlwriter.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/internal/catch_xmlwriter.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_automake.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_bases.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_bases.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_compact.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_compact.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_console.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_console.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_junit.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_junit.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_listening.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_listening.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_sonarqube.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_tap.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_teamcity.hpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_xml.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/include/reporters/catch_reporter_xml.h">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/CmdLine.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/Details.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/GeneratorsImpl.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/InternalBenchmark.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/PartTracker.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/RandomNumberGeneration.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/String.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/StringManip.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/Tag.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/ToString.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/IntrospectiveTests/Xml.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/SurrogateCpps/catch_console_colour.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/SurrogateCpps/catch_debugger.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/SurrogateCpps/catch_interfaces_reporter.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/SurrogateCpps/catch_option.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/SurrogateCpps/catch_stream.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/SurrogateCpps/catch_test_case_tracker.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/SurrogateCpps/catch_test_spec.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/SurrogateCpps/catch_xmlwriter.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/TestMain.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/TimingTests/Sleep.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Approx.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/BDD.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Benchmark.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Class.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Compilation.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Condition.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Decomposition.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/EnumToString.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Exception.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Generators.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Matchers.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Message.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Misc.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/ToStringByte.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/ToStringChrono.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/ToStringGeneral.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/ToStringOptional.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/ToStringPair.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/ToStringTuple.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/ToStringVariant.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/ToStringVector.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/ToStringWhich.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/Tricky.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/SelfTest/UsageTests/VariadicMacros.tests.cpp">
+			<Option target="SelfTest"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/include/westerstrom/grid.h">
+			<Option target="westerstrom_utils"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/include/westerstrom/pow_int.h">
+			<Option target="westerstrom_utils"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/include/westerstrom/set_cross.h">
+			<Option target="westerstrom_utils"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/include/westerstrom/tuple_math.h">
+			<Option target="westerstrom_utils"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/src/library.cpp">
+			<Option target="westerstrom_utils"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/src/library.h">
+			<Option target="westerstrom_utils"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/grid.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/pow_int.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/set_cross.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/test.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/tuple_math.cpp">
+			<Option target="westerstrom_utils_test"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/CMake/Catch2Config.cmake.in">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/CMake/MiscFunctions.cmake">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/CMake/catch2.pc.in">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/.clion-build-debug/_deps/catch2-src/projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.clion-build-debug\_deps\catch2-src\projects\"/>
+		</Unit>
+		<Unit filename="/Users/peterw/Development/westerstrom-utils/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
